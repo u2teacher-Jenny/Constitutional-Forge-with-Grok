@@ -1,0 +1,81 @@
+# Constitutional Forge .gitignore
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+.DS_Store
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-*
+.project
+.settings/
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Draft and work-in-progress files (use /drafts folder instead)
+*-draft.*
+*-wip.*
+
+# Personal notes (use /notes folder for sharable notes)
+personal-notes/
+private-notes/
+
+# Build artifacts (if tools are added later)
+dist/
+build/
+*.pyc
+__pycache__/
+node_modules/
+.cache/
+
+# Logs
+*.log
+logs/
+
+# Environment and config files with secrets
+.env
+.env.local
+secrets.yml
+config.local.*
+
+# AI conversation logs (if stored locally)
+ai-conversations/
+grok-logs/
+
+# Large data files (use external storage and link instead)
+*.csv.large
+*.xlsx
+*.db
+data/raw/
+
+# Documentation build artifacts (if doc generator added)
+docs/_build/
+site/
+
+# Testing artifacts (if tests added)
+.pytest_cache/
+.coverage
+htmlcov/
+test-results/
+
+# Backup files
+*.bak
+*.backup
+*-backup.*
+
+# Archive files (version control should be used instead)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Keep these empty directories
+!examples/demonstrations/.gitkeep
+!docs/guides/.gitkeep
